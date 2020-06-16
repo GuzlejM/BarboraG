@@ -80,9 +80,12 @@ section p {
 	section {
 		padding: 50px 20px;
 	}
+	#logo {
+		height: 50px;
+	}
 }
 
-/*Header Styles*/
+/*Header Styles----------------------------------------*/
 
 header {
 	position: absolute;
@@ -94,6 +97,10 @@ header {
 	animation: 1s fadein 0.5s forwards;
 	opacity: 0;
 	color: #fff;
+}
+
+#logo {
+	height: 70px;
 }
 
 @keyframes fadein {
@@ -126,7 +133,7 @@ header nav li {
 	}
 }
 
-/*Hero Styles*/
+/*Hero Styles---------------------------------------*/
 
 .hero {
 	position: relative;
@@ -140,7 +147,7 @@ header nav li {
 	position: absolute;
 	top: 0;
 	left: 0;
-	width: 100%;
+	width: 50%;
 	height: 100%;
 	background-size: cover;
 	z-index: -1;
