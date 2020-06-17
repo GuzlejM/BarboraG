@@ -102,8 +102,8 @@ header {
 	}
 }
 
-header h2 {
-	font-family: "Quicksand", sans-serif;
+header img {
+	width: 150px;
 }
 
 header nav {
@@ -115,6 +115,10 @@ header nav li {
 	margin: 0 15px;
 }
 
+header nav li a {
+	color: black;
+}
+
 @media (max-width: 800px) {
 	header {
 		padding: 20px 50px;
@@ -123,6 +127,15 @@ header nav li {
 
 	header h2 {
 		margin-bottom: 15px;
+	}
+
+	header nav li {
+		margin: 20px 10px;
+		font-size: 13px;
+	}
+
+	header nav li a {
+		color: black;
 	}
 }
 
@@ -179,8 +192,8 @@ header nav li {
 		min-height: 600px;
 	}
 
-	.hero h1 {
-		font-size: 48px;
+	.hero img {
+		width: 200px;
 	}
 
 	.hero h3 {
@@ -192,7 +205,7 @@ header nav li {
 	}
 
 	.hero .background-image {
-		width: 100%;
+		width: 100vw;
 	}
 }
 
