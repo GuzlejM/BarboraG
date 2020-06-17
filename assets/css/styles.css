@@ -113,7 +113,8 @@ header nav {
 }
 
 header nav li {
-	margin: 0 50px;
+	font-size: 20px;
+	justify-content: space-between;
 }
 
 header nav li a {
