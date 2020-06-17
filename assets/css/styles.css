@@ -1,14 +1,14 @@
 /*General Styles*/
 
 * {
-	margin: 0;
 	padding: 0;
+	margin: 0;
 	box-sizing: border-box;
 }
 
 html {
-	font: normal 16px sans-serif;
 	color: #555;
+	overflow-x: hidden; 
 }
 
 ul,
@@ -136,8 +136,8 @@ header nav li a {
 	}
 
 	header nav li {
-		margin: 20px 10px;
-		font-size: 13px;
+		margin: 0 3px;
+		font-size: 12px;
 	}
 
 	header nav li a {
