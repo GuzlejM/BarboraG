@@ -13,16 +13,16 @@
 <body>
   <!-- Forked from a template on Tutorialzine: https://tutorialzine.com/2016/06/freebie-landing-page-template-with-flexbox -->
   <header>
-    <img src="logo.png" alt="">
+    <a href=""><img src="logo.png" href="#home" alt=""></a>
     <nav>
-      <li><a href="#">WORKS</a></li>
-      <li><a href="#">PROJECTS</a></li>
-      <li><a href="#">PRODUCTS</a></li>
-      <li><a href="#">CONTACTS</a></li>
+      <li><a href="#works">WORKS</a></li>
+      <li><a href="#projects">PROJECTS</a></li>
+      <li><a href="#products">PRODUCTS</a></li>
+      <li><a href="#contacts">CONTACTS</a></li>
     </nav>
   </header>
 
-  <section class="hero">
+  <section class="hero" id="home">
     <div class="background-image" style="background-image: url(photo-desktop.png);"></div>
     <div class="hero-content-area">
       <img src="hello.png" alt="">
@@ -34,7 +34,7 @@
     </div>
   </section>
   
-  <section class="destinations">
+  <section class="destinations" id="works" >
     <h3 class="title">Some of our destinations:</h3>
     <p>Tired of the ocean? Are the plains too plain? Come along with us on one of our mountain adventures. Here are some pictures from people who have had elevated experiences with us.</p>
     <hr>
@@ -47,7 +47,7 @@
     </ul>
   </section>
 
-  <section class="packages">
+  <section class="packages" id="projects">
     <h3 class="title">Tour Packages</h3>
     <p>We offer a variety of mountaineering packages. Whether you've climbed Everest or don't even know what a mountain is, we've got the perfect vacation for you.</p>
     <hr>
@@ -76,7 +76,7 @@
     </ul>
   </section>
 
-  <section class="testimonials">
+  <section class="testimonials" id="products">
     <h3 class="title">Testimonials from our adventurers:</h3>
     <hr>
     <p class="quote">Wow! This tour made me realize how much I love mountains. After going on one of these tours, I can safely say that they are my favorite geographic feature, and my favorite word that starts with M.</p>
@@ -87,7 +87,7 @@
     <p class="author">- Tim Garcia</p>
   </section>
 
-  <section class="contact">
+  <section class="contact" id="contacts">
     <h3 class="title">Learn more</h3>
     <p>Want to know about our upcoming mountain-related events, or come to one of our mixers? Just sign up for our mailing list. No spam from us, we promise! Except for the spam we give you to keep up your energy while you're hiking through the mountains. We have tons of that.</p>
     <hr>
