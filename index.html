@@ -8,6 +8,7 @@
   <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet"href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <link rel="stylesheet" href="slick.css">
   <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
@@ -39,12 +40,44 @@
     <p>Tired of the ocean? Are the plains too plain? Come along with us on one of our mountain adventures. Here are some pictures from people who have had elevated experiences with us.</p>
     <hr>
 
-    <ul class="grid">
-      <li class="small" style="background-image: url(assets/img/mountain1.jpg);"></li>
-      <li class="large" style="background-image: url(assets/img/mountain2.jpg);"></li>
-      <li class="large" style="background-image: url(assets/img/mountain3.jpg);"></li>
-      <li class="small" style="background-image: url(assets/img/mountain4.jpg);"></li>
-    </ul>
+        <div class="gallery">
+            <div class="for_slick_slider multiple-items">
+                <div class="items">
+                    <img src="images/1.jpg" alt="">
+                    <div class="overlay"></div>
+                </div>
+
+                <div class="items">
+                    <img src="images/2.jpg" alt="">
+                    <div class="overlay"></div>
+                </div>
+
+                <div class="items">
+                    <img src="images/3.jpg" alt="">
+                    <div class="overlay"></div>
+                </div>
+
+                <div class="items">
+                    <img src="images/4.jpg"">
+                    <div class="overlay"></div>
+                </div>
+
+                <div class="items">
+                    <img src="images/5.jpg" alt="">
+                    <div class="overlay"></div>
+                </div>
+
+                <div class="items">
+                    <img src="images/6.jpg" alt="">
+                    <div class="overlay">overlay</div>
+                </div>
+
+            </div>
+            <div class="arrows">
+                <span class="arrow_prev"><i class="fas fa-arrow-alt-circle-left"></i></span>
+                <span class="arrow_next"><i class="fas fa-arrow-alt-circle-right"></i></span>
+            </div>
+        </div>
   </section>
 
   <section class="packages" id="projects">
@@ -107,5 +140,12 @@
     </ul>
   </footer>
 
+
+
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="slick.min.js"></script>
+  <script src="app.js"></script>
+  
 </body>
 </html>

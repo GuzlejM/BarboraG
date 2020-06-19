@@ -408,3 +408,75 @@ footer p {
 		margin: 0 8px;
 	}
 } 
+
+/* SLICK TEST */
+
+.for_slick_slider .items>img {
+    width: 100%;
+    max-height: 90%;
+}
+
+.gallery {
+    width: 60%;
+    margin: auto auto;
+}
+
+@media (max-width: 800px) {
+    .gallery {
+        width: 100%;
+    }
+}
+
+.arrow_next {
+    float: right;
+    transform: translate(30px, -210px) scale(3);
+    opacity: 0.8;
+    color: grey;
+}
+
+.arrow_prev {
+    float: left;
+    color: grey;
+    transform: translate(-30px, -210px) scale(3);
+    opacity: 0.8;
+}
+
+.items {
+	position: relative;
+	transition: 1s;
+}
+
+.overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(1, 1, 1, .35);
+    transition: 0.2s;
+	opacity: 0;
+	transition: 1s;
+}
+
+.overlay:hover {
+    opacity: 1;
+}
+
+@media (max-width: 800px) {
+	.arrows {
+		display: none;
+	}
+
+	.slick-center img:hover {
+		opacity: 0.3;
+	}
+}
+
+.slick-track {
+    display: flex;
+    align-items: center;
+}
+
+div.items.slick-slide {
+    margin: auto 10px
+}
