@@ -3,12 +3,13 @@ $(document).ready(function(){
         prevArrow: '.arrow_prev',
         nextArrow: '.arrow_next',
         slidesToShow: 3,
-        slidesToScroll: 1,
-        autoplay: false,
+        autoplay: true,
         arrows: true,
-        autoplaySpeed: 6000,
+        autoplaySpeed: 5000,
         centerMode: true,
-        centerPadding: '60px',
+        speed: 500,
+        swipeToSlide: true,
+        cssEase: 'linear',
         responsive: [
             {
               breakpoint: 600,
@@ -38,3 +39,16 @@ $(document).ready(function(){
           ]
     });
 });
+
+// const slider = $(".multiple-items");
+
+// //Implementing navigation of slides using mouse scroll
+// slider.on('wheel', (function(e) {
+//   e.preventDefault();
+
+//   if (e.originalEvent.deltaY < 0) {
+//     $(this).slick('slickNext');
+//   } else {
+//     $(this).slick('slickPrev');
+//   }
+// }));
