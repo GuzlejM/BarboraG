@@ -1,3 +1,45 @@
+const express = require('express'),
+app = express();
+
+app.set("view-engine", "ejs");
+
+app.get("/", () => {
+  res.render("index");
+});
+
+app.listen(3000, () => {
+  console.log("Server on!")
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// jQuery settings
 $(document).ready(function(){
     $('.multiple-items').slick({
         prevArrow: '.arrow_prev',
