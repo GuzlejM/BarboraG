@@ -44,7 +44,7 @@ $(document).ready(function(){
   
   // const slider = $(".multiple-items");
   
-  // //Implementing navigation of slides using mouse scroll
+  // //Implementing navigation of slides using MOUSE SCROLL 
   // slider.on('wheel', (function(e) {
   //   e.preventDefault();
   

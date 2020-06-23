@@ -1,10 +1,12 @@
-//const $ = require("./lib/jquery");
 // const express = require('express'),
 // app = express();
 
-// app.set("view-engine", "ejs");
 
-// app.get("/", () => {
+// app.set("view engine", "html");
+// app.use(express.static('public'));
+// app.engine('html', require('ejs').renderFile);
+
+// app.get("/", (req, res) => {
 //   res.render("index");
 // });
 
