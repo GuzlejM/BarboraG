@@ -158,6 +158,8 @@ header nav li a {
 	position: relative;
 	min-height: 100vh;
 	color: #fff;
+	display: flex;
+	justify-content: center;
 }
 
 .home .background-image {
