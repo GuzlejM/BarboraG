@@ -47,7 +47,11 @@ section {
 	scroll-snap-align: center;
 }
 
-.packages {
+.projects {
+	flex-direction: column;
+}
+
+.products {
 	flex-direction: column;
 }
 
@@ -378,28 +382,73 @@ div.items.slick-slide {
     margin: auto 10px
 }
 
-/*Packages Section--------------------------------------------*/
-.packages ul.grid li i {
+/*Projects Section--------------------------------------------*/
+.projects ul.grid li i {
 	transform: scale(4);
 }
 
-.packages .grid li {
+.projects .grid li {
 	padding: 50px;
 	flex-basis: 50%;
 	text-align: center;
 }
 
-.packages .grid li i {
+.projects .grid li i {
 	color: #8c9eff;
 }
 
-.packages .grid li h4 {
+.projects .grid li h4 {
 	font-size: 30px;
 	margin: 25px 0;
 }
 
 @media (max-width: 800px) {
-	.packages .grid li {
+	.projects .grid li {
+		flex-basis: 100%;
+		padding: 20px;
+	}
+}
+
+/*Products Section--------------------------------------------*/
+.products ul.grid li i {
+	transform: scale(4);
+}
+
+.products .grid li {
+	padding: 50px;
+	flex-basis: 50%;
+	text-align: center;
+}
+
+.raja img{
+	width: 40%;
+	border-radius: 15px;
+	padding: 2px;
+}
+
+.ghetto img{
+	width: 40%;
+	border-radius: 15px;
+	padding: 2px;
+	height: 30%;
+}
+
+.steeve img{
+	width: 40%;
+	border-radius: 15px;
+	padding: 2px;
+	height: 20%;
+}
+
+.products .grid li h4 {
+	font-size: 30px;
+	margin: 25px 0;
+}
+
+
+
+@media (max-width: 800px) {
+	.products .grid li {
 		flex-basis: 100%;
 		padding: 20px;
 	}
